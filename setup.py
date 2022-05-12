@@ -28,6 +28,7 @@ labext_name = pkg_json["name"]
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, str(lab_path.relative_to(HERE)), "**"),
     ("share/jupyter/labextensions/%s" % labext_name, str("."), "install.json"),
+    ("etc/jupyter/jupyter_server_config.d", "jupyter-config", "jupyterlab_gazebo.json")
 ]
 
 long_description = (HERE / "README.md").read_text()

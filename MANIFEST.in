@@ -1,6 +1,7 @@
 include LICENSE
 include *.md
 include pyproject.toml
+recursive-include jupyter-config *.json
 
 include package.json
 include install.json
@@ -8,6 +9,7 @@ include ts*.json
 include yarn.lock
 
 graft jupyterlab_gazebo/labextension
+graft jupyterlab_gazebo/gazebo
 
 # Javascript files
 graft src
