@@ -12,6 +12,7 @@ jupyterlab_gazebo/labextension
 *.sdf.erb
 *.rsdf
 *.dae
+*.DAE
 *.stl
 *.mtl
 *.obj
