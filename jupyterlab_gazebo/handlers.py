@@ -17,7 +17,7 @@ def setup_handlers(web_app):
 
     base_url = web_app.settings["base_url"]
     url_path = 'gazebo'
-    route_gazebo = url_path_join(base_url, url_path, "app")
+    route_gazebo = url_path_join(base_url, url_path)
 
     print(f"adding route for static file handler: {route_gazebo}")
     print(f"serving files: {PUBLIC}")

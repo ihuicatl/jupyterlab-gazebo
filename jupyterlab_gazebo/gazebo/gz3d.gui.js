@@ -63256,6 +63256,11 @@ ROSLIB.Ros.prototype.connect = function(url) {
       handleMessage(data);
     }
   }
+  console.log("CONNECT TO THIS");
+  // console.log(typeof url);
+
+  url = "ws://localhost:8080";
+  console.log(url);
 
   this.socket = new WebSocket(url);
   this.socket.onopen = onOpen;
