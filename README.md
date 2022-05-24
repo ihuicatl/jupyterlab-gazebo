@@ -40,6 +40,8 @@ The `jlpm` command is JupyterLab's pinned version of
 pip install -e .
 # Link your development version of the extension with JupyterLab
 jupyter labextension develop . --overwrite
+# Enable the server extension
+jupyter-serverextension enable jupyterlab_gazebo
 # Rebuild extension Typescript source after making changes
 jlpm build
 ```
