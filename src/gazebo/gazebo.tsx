@@ -5,7 +5,7 @@ export default class GazeboWidget extends IFrame {
     constructor() {
         super();
         const baseURL = PageConfig.getBaseUrl();
-        this.url = baseURL + 'gazebo/app/index.html';
+        this.url = baseURL + 'gazebo/index.html';
         console.log(this.url);
         this.id = 'Gazebo';
         this.title.label = 'Gazebo';

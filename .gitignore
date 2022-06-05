@@ -7,6 +7,9 @@ node_modules/
 .ipynb_checkpoints
 *.tsbuildinfo
 jupyterlab_gazebo/labextension
+
+# Model files
+jupyterlab_gazebo/gazebo/assets/
 *.tar.gz
 *.sdf
 *.sdf.erb
@@ -16,6 +19,7 @@ jupyterlab_gazebo/labextension
 *.stl
 *.mtl
 *.obj
+*.png
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
